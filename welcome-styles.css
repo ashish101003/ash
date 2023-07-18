@@ -1,0 +1,64 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.welcome-container {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    width: 600px;
+    transform: translateY(-20px);
+    opacity: 0;
+    animation: slideInAndFade 1s forwards;
+}
+
+@keyframes slideInAndFade {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.welcome-box {
+    text-align: center;
+}
+
+h2 {
+    color: #e74c3c;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.heart-emoji {
+    font-size: 30px;
+}
+
+.love-message {
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px;
+    color: #555;
+    margin-top: 20px;
+}
+
+.kiss-emoji {
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.heart-emoji {
+    font-size: 24px;
+    vertical-align: middle;
+}
